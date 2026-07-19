@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/glassmorphism.css">
   <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -28,7 +29,7 @@
   <!-- Cart Workspace -->
   <section style="padding: 4rem 0 7rem 0;">
     <div class="container" id="cart-workspace">
-      <div style="display: grid; grid-template-columns: 1fr 380px; gap: 3rem; align-items: start;">
+      <div class="cart-workspace-grid" style="display: grid; grid-template-columns: 1fr 380px; gap: 3rem; align-items: start;">
         
         <!-- Cart Items Column -->
         <div>
@@ -38,7 +39,7 @@
           </div>
 
           <!-- Coupon & Shipping Estimator Row -->
-          <div class="grid grid-cols-2" style="gap: 1.5rem; margin-top: 2rem;">
+          <div class="cart-coupon-shipping grid grid-cols-2" style="gap: 1.5rem; margin-top: 2rem;">
             <div class="glass-panel-dark" style="padding: 1.5rem;">
               <h4 style="color: var(--gold-primary); font-size: 0.85rem; margin-bottom: 0.75rem;">VIP PROMO CODE</h4>
               <div style="display: flex; gap: 0.5rem;">
@@ -59,7 +60,7 @@
         </div>
 
         <!-- Order Summary Card -->
-        <div class="glass-card-gold" style="padding: 2.25rem;">
+        <div class="glass-card-gold cart-summary-card" style="padding: 2.25rem;">
           <h3 style="font-family: var(--font-heading); color: #FFF; font-size: 1.25rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1);">ORDER SUMMARY</h3>
           
           <div style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem;">

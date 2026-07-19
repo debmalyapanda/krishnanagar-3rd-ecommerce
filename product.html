@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/glassmorphism.css">
   <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <style>
@@ -51,7 +52,7 @@
   <!-- Product Main Detail View -->
   <section style="padding: 4rem 0 6rem 0;">
     <div class="container">
-      <div class="grid grid-cols-2" style="gap: 3.5rem; align-items: start;">
+      <div class="grid grid-cols-2 product-detail-grid" style="gap: 3.5rem; align-items: start;">
         
         <!-- Gallery Side -->
         <div>
@@ -94,7 +95,7 @@
           </div>
 
           <!-- Quantity Picker & Add to Cart -->
-          <div style="display: flex; gap: 1.25rem; align-items: center; margin-bottom: 2rem;">
+          <div class="pd-actions-row" style="display: flex; gap: 1.25rem; align-items: center; margin-bottom: 2rem;">
             <div style="display: flex; align-items: center; border: 1px solid var(--border-gold); border-radius: var(--radius-sm); overflow: hidden; background: rgba(255,255,255,0.05);">
               <button id="pd-qty-minus" style="padding: 0.9rem 1.2rem; color: #FFF; font-size: 1.1rem;">-</button>
               <input id="pd-qty-input" type="number" value="1" min="1" style="width: 50px; text-align: center; color: #FFF; font-weight: 700; font-size: 1rem;">
@@ -112,7 +113,7 @@
           </div>
 
           <!-- Value Chips -->
-          <div class="grid grid-cols-3" style="gap: 1rem; background: rgba(255,255,255,0.03); padding: 1.25rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);">
+          <div class="grid grid-cols-3 product-values-row" style="gap: 1rem; background: rgba(255,255,255,0.03); padding: 1.25rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);">
             <div style="display: flex; align-items: center; gap: 0.75rem;">
               <i class="fas fa-truck text-gold" style="font-size: 1.25rem;"></i>
               <span style="font-size: 0.75rem; color: var(--text-light-secondary);">White-Glove Shipping</span>
@@ -135,7 +136,7 @@
 
       <!-- Tabbed Detailed Sections -->
       <div style="margin-top: 5rem;">
-        <div style="display: flex; gap: 1rem; border-bottom: 1px solid var(--border-gold); padding-bottom: 1rem; margin-bottom: 2.5rem;">
+        <div class="pd-tabs-row" style="display: flex; gap: 1rem; border-bottom: 1px solid var(--border-gold); padding-bottom: 1rem; margin-bottom: 2.5rem;">
           <button class="btn btn-gold pd-tab-btn" data-tab="specs">Specifications</button>
           <button class="btn btn-glass pd-tab-btn" data-tab="desc">Full Description</button>
           <button class="btn btn-glass pd-tab-btn" data-tab="reviews">Verified Client Reviews</button>

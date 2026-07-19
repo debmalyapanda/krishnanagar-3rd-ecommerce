@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/glassmorphism.css">
   <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -34,10 +35,10 @@
   <!-- Shop Main Workspace -->
   <section style="padding: 4rem 0 7rem 0;">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 280px 1fr; gap: 2.5rem; align-items: start;">
+      <div style="display: grid; grid-template-columns: 280px 1fr; gap: 2.5rem; align-items: start;" class="shop-layout">
         
         <!-- SIDEBAR FILTERS -->
-        <aside class="glass-panel-dark" style="padding: 2rem;">
+        <aside class="glass-panel-dark shop-sidebar" id="shop-sidebar" style="padding: 2rem;">
           <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 1rem; border-bottom: 1px solid var(--border-gold); margin-bottom: 1.5rem;">
             <h3 style="font-size: 1.1rem; color: #FFF; font-family: var(--font-heading);"><i class="fas fa-sliders text-gold"></i> FILTERS</h3>
             <button id="clear-filters-btn" style="color: var(--gold-primary); font-size: 0.75rem; text-decoration: underline; cursor: pointer;">Reset All</button>
@@ -110,8 +111,15 @@
 
         <!-- MAIN PRODUCTS CONTENT -->
         <div>
+          <!-- Mobile Filter Toggle Button (visible on tablet/mobile) -->
+          <div style="margin-bottom: 1.5rem; display: none;" id="mobile-filter-bar">
+            <button id="filter-toggle-mobile-btn" class="btn btn-outline-gold filter-toggle-btn" style="width: 100%; justify-content: center; gap: 0.75rem;">
+              <i class="fas fa-sliders"></i> Filter & Sort Products
+            </button>
+          </div>
+
           <!-- Controls Bar -->
-          <div class="glass-panel-dark" style="padding: 1.25rem 2rem; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+          <div class="glass-panel-dark shop-controls-bar" style="padding: 1.25rem 2rem; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
             <span id="shop-results-count" style="color: var(--text-light-secondary); font-size: 0.875rem;">Loading products...</span>
             
             <div style="display: flex; align-items: center; gap: 1.5rem;">

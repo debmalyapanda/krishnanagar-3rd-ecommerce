@@ -41,6 +41,71 @@ export async function initShop() {
   setupEventListeners();
   renderCategorySidebar();
   applyFilters();
+  setupMobileFilterToggle();
+}
+
+function setupMobileFilterToggle() {
+  const filterBar = document.getElementById('mobile-filter-bar');
+  const sidebar = document.getElementById('shop-sidebar');
+  const toggleBtn = document.getElementById('filter-toggle-mobile-btn');
+
+  // Show the mobile filter bar on small screens
+  const updateFilterBarVisibility = () => {
+    if (filterBar) {
+      filterBar.style.display = window.innerWidth <= 768 ? 'block' : 'none';
+    }
+    // Reset sidebar on resize back to desktop
+    if (window.innerWidth > 768 && sidebar) {
+      sidebar.classList.remove('sidebar-open');
+      document.body.style.overflow = '';
+      const backdrop = document.getElementById('sidebar-backdrop');
+      if (backdrop) backdrop.classList.remove('active');
+    }
+  };
+
+  updateFilterBarVisibility();
+  window.addEventListener('resize', updateFilterBarVisibility);
+
+  // Create backdrop for sidebar
+  let backdrop = document.getElementById('sidebar-backdrop');
+  if (!backdrop) {
+    backdrop = document.createElement('div');
+    backdrop.id = 'sidebar-backdrop';
+    backdrop.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:9989;display:none;';
+    document.body.appendChild(backdrop);
+  }
+
+  const closeSidebar = () => {
+    if (sidebar) sidebar.classList.remove('sidebar-open');
+    backdrop.classList.remove('active');
+    backdrop.style.display = 'none';
+    document.body.style.overflow = '';
+  };
+
+  if (toggleBtn) {
+    toggleBtn.onclick = () => {
+      if (!sidebar) return;
+      const isOpen = sidebar.classList.contains('sidebar-open');
+      if (isOpen) {
+        closeSidebar();
+      } else {
+        sidebar.classList.add('sidebar-open');
+        backdrop.style.display = 'block';
+        setTimeout(() => backdrop.classList.add('active'), 10);
+        document.body.style.overflow = 'hidden';
+      }
+    };
+  }
+
+  backdrop.onclick = closeSidebar;
+
+  // Close sidebar when a filter is applied on mobile
+  const clearBtn = document.getElementById('clear-filters-btn');
+  if (clearBtn) {
+    clearBtn.addEventListener('click', () => {
+      if (window.innerWidth <= 768) closeSidebar();
+    });
+  }
 }
 
 function setupEventListeners() {

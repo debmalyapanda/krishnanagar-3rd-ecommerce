@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/glassmorphism.css">
   <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
@@ -22,12 +23,12 @@
     <div class="container" id="checkout-workspace">
       
       <!-- Checkout Step Bar -->
-      <div style="display: flex; justify-content: center; gap: 3rem; margin-bottom: 3.5rem; text-align: center;">
+      <div class="checkout-step-bar" style="display: flex; justify-content: center; gap: 3rem; margin-bottom: 3.5rem; text-align: center;">
         <div style="display: flex; align-items: center; gap: 0.75rem;">
           <span style="width: 32px; height: 32px; border-radius: 50%; background: var(--gold-primary); color: #000; font-weight: 800; display: inline-flex; align-items: center; justify-content: center;">1</span>
           <span style="color: #FFF; font-weight: 600; font-size: 0.9rem;">Shipping & Address</span>
         </div>
-        <div style="width: 60px; height: 2px; background: var(--border-gold); align-self: center;"></div>
+        <div class="checkout-step-divider" style="width: 60px; height: 2px; background: var(--border-gold); align-self: center;"></div>
         <div style="display: flex; align-items: center; gap: 0.75rem;">
           <span style="width: 32px; height: 32px; border-radius: 50%; background: var(--gold-primary); color: #000; font-weight: 800; display: inline-flex; align-items: center; justify-content: center;">2</span>
           <span style="color: #FFF; font-weight: 600; font-size: 0.9rem;">Payment & Review</span>
@@ -35,7 +36,7 @@
       </div>
 
       <form id="checkout-form">
-        <div style="display: grid; grid-template-columns: 1fr 420px; gap: 3.5rem; align-items: start;">
+        <div class="checkout-grid" style="display: grid; grid-template-columns: 1fr 420px; gap: 3.5rem; align-items: start;">
           
           <!-- Billing & Payment Column -->
           <div>
@@ -43,7 +44,7 @@
             <div class="glass-panel-dark" style="padding: 2.5rem; margin-bottom: 2.5rem;">
               <h3 style="font-family: var(--font-heading); color: #FFF; font-size: 1.25rem; margin-bottom: 1.5rem;"><i class="fas fa-location-dot text-gold"></i> SHIPPING ADDRESS</h3>
               
-              <div class="grid grid-cols-2" style="gap: 1.25rem; margin-bottom: 1.25rem;">
+              <div class="checkout-address-grid-2 grid grid-cols-2" style="gap: 1.25rem; margin-bottom: 1.25rem;">
                 <div>
                   <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">First Name *</label>
                   <input type="text" required class="glass-input" placeholder="Victoria">
@@ -54,7 +55,7 @@
                 </div>
               </div>
 
-              <div class="grid grid-cols-2" style="gap: 1.25rem; margin-bottom: 1.25rem;">
+              <div class="checkout-address-grid-2 grid grid-cols-2" style="gap: 1.25rem; margin-bottom: 1.25rem;">
                 <div>
                   <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Email Address *</label>
                   <input type="email" required class="glass-input" placeholder="v.sterling@residence.com">
@@ -70,7 +71,7 @@
                 <input type="text" required class="glass-input" placeholder="740 Park Avenue, Apt 14B">
               </div>
 
-              <div class="grid grid-cols-3" style="gap: 1.25rem;">
+              <div class="checkout-address-grid-3 grid grid-cols-3" style="gap: 1.25rem;">
                 <div>
                   <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">City *</label>
                   <input type="text" required class="glass-input" placeholder="New York">
@@ -90,7 +91,7 @@
             <div class="glass-panel-dark" style="padding: 2.5rem;">
               <h3 style="font-family: var(--font-heading); color: #FFF; font-size: 1.25rem; margin-bottom: 1.5rem;"><i class="fas fa-credit-card text-gold"></i> PAYMENT METHOD</h3>
               
-              <div style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+              <div class="payment-tabs-row" style="display: flex; gap: 1rem; margin-bottom: 2rem;">
                 <button type="button" class="btn btn-gold payment-tab-btn" data-payment="card">Credit / Debit Card</button>
                 <button type="button" class="btn btn-glass payment-tab-btn" data-payment="apple">Apple Pay / Google Pay</button>
                 <button type="button" class="btn btn-glass payment-tab-btn" data-payment="wire">Concierge Wire Transfer</button>
@@ -126,7 +127,7 @@
                   <input type="text" id="card-number-input" required class="glass-input" placeholder="4111 2222 3333 4444" maxlength="19">
                 </div>
 
-                <div class="grid grid-cols-2" style="gap: 1.25rem;">
+                <div class="card-exp-row grid grid-cols-2" style="gap: 1.25rem;">
                   <div>
                     <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Name on Card *</label>
                     <input type="text" id="card-name-input" required class="glass-input" placeholder="Victoria Sterling">
@@ -158,7 +159,7 @@
           </div>
 
           <!-- Checkout Order Summary Column -->
-          <div class="glass-card-gold" style="padding: 2.25rem; position: sticky; top: 110px;">
+          <div class="glass-card-gold checkout-summary-col" style="padding: 2.25rem; position: sticky; top: 110px;">
             <h3 style="font-family: var(--font-heading); color: #FFF; font-size: 1.25rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1);">ORDER PREVIEW</h3>
             
             <div id="checkout-items-list" style="max-height: 300px; overflow-y: auto; margin-bottom: 1.5rem;">

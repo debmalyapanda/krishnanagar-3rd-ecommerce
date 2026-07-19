@@ -263,24 +263,39 @@ export function renderHeaderAndFooter() {
 
     // Mobile nav toggle
     const mobBtn = document.getElementById('mobile-menu-btn');
+    const navBackdrop = document.createElement('div');
+    navBackdrop.id = 'nav-backdrop';
+    document.body.appendChild(navBackdrop);
+
+    const closeMobileNav = () => {
+      const nav = document.getElementById('main-nav');
+      if (nav) nav.classList.remove('mobile-open');
+      navBackdrop.classList.remove('active');
+      document.body.style.overflow = '';
+    };
+
     if (mobBtn) {
       mobBtn.onclick = () => {
         const nav = document.getElementById('main-nav');
-        if (nav.style.display === 'flex') {
-          nav.style.display = 'none';
+        if (!nav) return;
+        const isOpen = nav.classList.contains('mobile-open');
+        if (isOpen) {
+          closeMobileNav();
+          mobBtn.innerHTML = '<i class="fas fa-bars"></i>';
         } else {
-          nav.style.display = 'flex';
-          nav.style.flexDirection = 'column';
-          nav.style.position = 'absolute';
-          nav.style.top = '100%';
-          nav.style.left = '0';
-          nav.style.width = '100%';
-          nav.style.background = 'rgba(11, 12, 16, 0.95)';
-          nav.style.padding = '1.5rem';
-          nav.style.borderBottom = '1px solid var(--border-gold)';
+          nav.classList.add('mobile-open');
+          navBackdrop.classList.add('active');
+          document.body.style.overflow = 'hidden';
+          mobBtn.innerHTML = '<i class="fas fa-times"></i>';
         }
       };
     }
+
+    navBackdrop.onclick = () => {
+      closeMobileNav();
+      const mobBtn2 = document.getElementById('mobile-menu-btn');
+      if (mobBtn2) mobBtn2.innerHTML = '<i class="fas fa-bars"></i>';
+    };
   }
 
   if (footerElem) {
