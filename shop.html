@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shop Luxury Interior Collection | AURA Atelier</title>
+  <meta name="description" content="Browse our luxury interior design catalog featuring Italian marble dining tables, velvet sofas, sculptural lighting, beds, and decor.">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/glassmorphism.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Shared Header -->
+  <header id="site-header"></header>
+
+  <!-- Page Banner & Breadcrumbs -->
+  <section style="background: url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat; padding: 5rem 0; position: relative;">
+    <div style="position: absolute; inset: 0; background: rgba(11, 12, 16, 0.85); backdrop-filter: blur(6px);"></div>
+    <div class="container" style="position: relative; z-index: 2; text-align: center;">
+      <span class="section-subtitle">THE COMPLETE ATELIER PORTFOLIO</span>
+      <h1 style="font-size: 2.5rem; color: #FFF; letter-spacing: 0.1em; margin-top: 0.5rem;">ATELIER SHOP COLLECTION</h1>
+      <div style="display: flex; justify-content: center; gap: 0.75rem; color: var(--text-light-muted); font-size: 0.85rem; margin-top: 1rem;">
+        <a href="index.html" style="color: var(--text-light-muted);">Home</a>
+        <span>/</span>
+        <span style="color: var(--gold-primary);">Shop</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Shop Main Workspace -->
+  <section style="padding: 4rem 0 7rem 0;">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 280px 1fr; gap: 2.5rem; align-items: start;">
+        
+        <!-- SIDEBAR FILTERS -->
+        <aside class="glass-panel-dark" style="padding: 2rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 1rem; border-bottom: 1px solid var(--border-gold); margin-bottom: 1.5rem;">
+            <h3 style="font-size: 1.1rem; color: #FFF; font-family: var(--font-heading);"><i class="fas fa-sliders text-gold"></i> FILTERS</h3>
+            <button id="clear-filters-btn" style="color: var(--gold-primary); font-size: 0.75rem; text-decoration: underline; cursor: pointer;">Reset All</button>
+          </div>
+
+          <!-- Keyword Search -->
+          <div style="margin-bottom: 2rem;">
+            <h4 style="font-size: 0.8rem; color: var(--gold-primary); margin-bottom: 0.75rem;">SEARCH CATALOG</h4>
+            <div style="position: relative;">
+              <input type="text" id="shop-search-input" class="glass-input" placeholder="Search item, material..." style="padding: 0.75rem 1rem;">
+              <i class="fas fa-search" style="position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); color: var(--text-light-muted); font-size: 0.9rem;"></i>
+            </div>
+          </div>
+
+          <!-- Categories Filter -->
+          <div style="margin-bottom: 2rem;">
+            <h4 style="font-size: 0.8rem; color: var(--gold-primary); margin-bottom: 0.75rem;">CATEGORIES</h4>
+            <div id="category-filter-list" style="display: flex; flex-direction: column; max-height: 260px; overflow-y: auto; padding-right: 0.5rem;">
+              <!-- Dynamic Category Checklist -->
+            </div>
+          </div>
+
+          <!-- Price Range Slider -->
+          <div style="margin-bottom: 2rem;">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+              <h4 style="font-size: 0.8rem; color: var(--gold-primary);">MAX PRICE</h4>
+              <span id="price-range-val" style="font-size: 0.9rem; font-weight: 700; color: #FFF;">$15,000</span>
+            </div>
+            <input type="range" id="price-range-slider" min="100" max="15000" step="100" value="15000" style="width: 100%; accent-color: var(--gold-primary);">
+            <div style="display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--text-light-muted); margin-top: 0.35rem;">
+              <span>$100</span>
+              <span>$15,000</span>
+            </div>
+          </div>
+
+          <!-- Rating Filter -->
+          <div style="margin-bottom: 2rem;">
+            <h4 style="font-size: 0.8rem; color: var(--gold-primary); margin-bottom: 0.75rem;">RATING</h4>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+              <label style="display: flex; align-items: center; gap: 0.6rem; color: var(--text-light-secondary); font-size: 0.85rem; cursor: pointer;">
+                <input type="radio" name="rating-filter" class="rating-filter-opt" value="0" checked style="accent-color: var(--gold-primary);">
+                <span>All Ratings</span>
+              </label>
+              <label style="display: flex; align-items: center; gap: 0.6rem; color: var(--text-light-secondary); font-size: 0.85rem; cursor: pointer;">
+                <input type="radio" name="rating-filter" class="rating-filter-opt" value="4.8" style="accent-color: var(--gold-primary);">
+                <span class="stars"><i class="fas fa-star"></i> 4.8 & Above</span>
+              </label>
+              <label style="display: flex; align-items: center; gap: 0.6rem; color: var(--text-light-secondary); font-size: 0.85rem; cursor: pointer;">
+                <input type="radio" name="rating-filter" class="rating-filter-opt" value="4.5" style="accent-color: var(--gold-primary);">
+                <span class="stars"><i class="fas fa-star"></i> 4.5 & Above</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Availability & Discount Filter -->
+          <div>
+            <h4 style="font-size: 0.8rem; color: var(--gold-primary); margin-bottom: 0.75rem;">AVAILABILITY</h4>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+              <label style="display: flex; align-items: center; gap: 0.6rem; color: var(--text-light-secondary); font-size: 0.85rem; cursor: pointer;">
+                <input type="checkbox" id="filter-instock" style="accent-color: var(--gold-primary);">
+                <span>In Stock Only</span>
+              </label>
+              <label style="display: flex; align-items: center; gap: 0.6rem; color: var(--text-light-secondary); font-size: 0.85rem; cursor: pointer;">
+                <input type="checkbox" id="filter-onsale" style="accent-color: var(--gold-primary);">
+                <span>Exclusive Sale Items</span>
+              </label>
+            </div>
+          </div>
+        </aside>
+
+        <!-- MAIN PRODUCTS CONTENT -->
+        <div>
+          <!-- Controls Bar -->
+          <div class="glass-panel-dark" style="padding: 1.25rem 2rem; margin-bottom: 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem;">
+            <span id="shop-results-count" style="color: var(--text-light-secondary); font-size: 0.875rem;">Loading products...</span>
+            
+            <div style="display: flex; align-items: center; gap: 1.5rem;">
+              <!-- Sort Selector -->
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <label style="font-size: 0.8rem; color: var(--gold-primary); font-weight: 600; text-transform: uppercase;">Sort By:</label>
+                <select id="shop-sort-select" class="glass-input" style="width: auto; padding: 0.5rem 1rem; font-size: 0.85rem;">
+                  <option value="featured" style="background: #12141D; color: #FFF;">Featured Masterpieces</option>
+                  <option value="price-low" style="background: #12141D; color: #FFF;">Price: Low to High</option>
+                  <option value="price-high" style="background: #12141D; color: #FFF;">Price: High to Low</option>
+                  <option value="rating" style="background: #12141D; color: #FFF;">Highest Rated</option>
+                  <option value="newest" style="background: #12141D; color: #FFF;">New Arrivals</option>
+                </select>
+              </div>
+
+              <!-- View Switchers -->
+              <div style="display: flex; gap: 0.5rem;">
+                <button id="view-grid-3" class="btn btn-gold btn-icon" title="3 Column Grid" style="width: 36px; height: 36px; border-radius: 4px;"><i class="fas fa-th-large"></i></button>
+                <button id="view-grid-4" class="btn btn-glass btn-icon" title="4 Column Grid" style="width: 36px; height: 36px; border-radius: 4px;"><i class="fas fa-th"></i></button>
+                <button id="view-list" class="btn btn-glass btn-icon" title="List View" style="width: 36px; height: 36px; border-radius: 4px;"><i class="fas fa-list"></i></button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Dynamic Products Grid -->
+          <div id="shop-products-grid" class="grid grid-cols-3" style="gap: 2rem;">
+            <!-- Rendered via shop.js -->
+          </div>
+
+          <!-- Pagination Bar -->
+          <div id="shop-pagination" style="display: flex; justify-content: center; align-items: center; gap: 0.75rem; margin-top: 4rem;">
+            <!-- Rendered via shop.js -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Shared Footer -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script type="module" src="js/store.js"></script>
+  <script type="module" src="js/products-data.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/shop.js"></script>
+</body>
+</html>

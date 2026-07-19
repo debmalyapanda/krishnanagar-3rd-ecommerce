@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concierge & Showrooms | AURA Atelier</title>
+  <meta name="description" content="Get in touch with AURA Atelier interior design concierge or visit our flagship salons in Milan, New York, and Paris.">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/glassmorphism.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Shared Header -->
+  <header id="site-header"></header>
+
+  <!-- Banner -->
+  <section style="background: #0E1017; padding: 4rem 0; text-align: center; border-bottom: 1px solid var(--border-dark);">
+    <div class="container">
+      <span class="section-subtitle">PRIVATE CONSULTATIONS & SALONS</span>
+      <h1 style="font-size: 2.2rem; color: #FFF; letter-spacing: 0.1em; margin-top: 0.5rem;">ATELIER CONCIERGE & SHOWROOMS</h1>
+    </div>
+  </section>
+
+  <!-- Contact Workspace -->
+  <section style="padding: 5rem 0 7rem 0;">
+    <div class="container">
+      <div class="grid grid-cols-2" style="gap: 4rem; align-items: start;">
+        
+        <!-- Concierge Form -->
+        <div class="glass-panel-dark" style="padding: 3rem;">
+          <span class="section-subtitle">INQUIRE WITH OUR ARCHITECTS</span>
+          <h2 style="font-family: var(--font-heading); color: #FFF; font-size: 1.8rem; margin: 0.5rem 0 1.5rem 0;">SEND A BESPOKE INQUIRY</h2>
+          
+          <form id="contact-concierge-form">
+            <div class="grid grid-cols-2" style="gap: 1.25rem; margin-bottom: 1.25rem;">
+              <div>
+                <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Full Name *</label>
+                <input type="text" required class="glass-input" placeholder="Victoria Sterling">
+              </div>
+              <div>
+                <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Email Address *</label>
+                <input type="email" required class="glass-input" placeholder="v.sterling@residence.com">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-2" style="gap: 1.25rem; margin-bottom: 1.25rem;">
+              <div>
+                <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Direct Phone *</label>
+                <input type="tel" required class="glass-input" placeholder="+1 (555) 019-2834">
+              </div>
+              <div>
+                <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Project Scope</label>
+                <select class="glass-input" style="padding: 0.85rem;">
+                  <option style="background: #12141D;">Full Residence Interior Design</option>
+                  <option style="background: #12141D;">Penthouse Dining & Living Salon</option>
+                  <option style="background: #12141D;">Bespoke Furniture Customization</option>
+                  <option style="background: #12141D;">Commercial / Yacht / Private Jet</option>
+                </select>
+              </div>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Project Vision & Details *</label>
+              <textarea required class="glass-input" rows="5" placeholder="Tell us about your architectural dimensions, material preferences, and project timeline..."></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-gold" style="width: 100%; padding: 1.1rem;">Submit Inquiry To Concierge &rarr;</button>
+          </form>
+        </div>
+
+        <!-- Showrooms & Contact Info -->
+        <div>
+          <div style="margin-bottom: 3rem;">
+            <span class="section-subtitle">FLAGSHIP ATELIERS</span>
+            <h2 style="font-family: var(--font-heading); color: #FFF; font-size: 1.8rem; margin: 0.5rem 0 1.5rem 0;">GLOBAL SALON LOCATIONS</h2>
+            
+            <div class="grid grid-cols-2" style="gap: 1.5rem;">
+              <div class="glass-card-gold" style="padding: 1.5rem;">
+                <h4 style="color: var(--gold-primary); font-family: var(--font-heading); font-size: 1.1rem; margin-bottom: 0.5rem;">MILAN ATELIER</h4>
+                <p style="color: var(--text-light-secondary); font-size: 0.85rem; line-height: 1.6;">
+                  Via Montenapoleone 18<br>
+                  20121 Milano MI, Italy<br>
+                  <strong style="color: #FFF;">+39 02 8849 2011</strong>
+                </p>
+              </div>
+
+              <div class="glass-card-gold" style="padding: 1.5rem;">
+                <h4 style="color: var(--gold-primary); font-family: var(--font-heading); font-size: 1.1rem; margin-bottom: 0.5rem;">NEW YORK SALON</h4>
+                <p style="color: var(--text-light-secondary); font-size: 0.85rem; line-height: 1.6;">
+                  740 Park Avenue, Suite 4<br>
+                  New York, NY 10021<br>
+                  <strong style="color: #FFF;">+1 (212) 893-4000</strong>
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stylized Dark Google Map Placeholder -->
+          <div style="position: relative; height: 320px; border-radius: 12px; overflow: hidden; border: 1px solid var(--border-gold); background: #08090C; display: flex; align-items: center; justify-content: center; box-shadow: var(--shadow-lg);">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69767014178402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus" width="100%" height="100%" style="border:0; filter: grayscale(100%) invert(92%) contrast(83%);" allowfullscreen="" loading="lazy"></iframe>
+            <div style="position: absolute; bottom: 1rem; left: 1rem; background: rgba(18,20,29,0.9); padding: 0.75rem 1.25rem; border-radius: 6px; border: 1px solid var(--gold-primary); color: #FFF; font-size: 0.8rem;">
+              <i class="fas fa-location-dot text-gold"></i> Flagship Showroom Interactive Map
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- FAQ Accordion Section -->
+      <div id="faqs" style="margin-top: 6rem;">
+        <div class="section-title-wrapper">
+          <span class="section-subtitle">FREQUENT INQUIRIES</span>
+          <h2 class="section-title">CLIENT SERVICE FAQS</h2>
+        </div>
+
+        <div style="max-width: 900px; margin: 0 auto; display: flex; flex-direction: column; gap: 1rem;">
+          <div class="glass-panel-dark faq-item" style="padding: 1.5rem; cursor: pointer;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <h4 style="color: #FFF; font-size: 1.05rem; font-family: var(--font-heading);">What does White-Glove Shipping & Assembly entail?</h4>
+              <i class="fas fa-chevron-down text-gold faq-icon"></i>
+            </div>
+            <div class="faq-answer" style="display: none; margin-top: 1rem; color: var(--text-light-secondary); font-size: 0.9rem; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1rem;">
+              Our dedicated white-glove transport team safely carries your luxury furniture into your room of choice, unpacks each marble slab or sofa, performs complete assembly, and removes all protective packaging.
+            </div>
+          </div>
+
+          <div class="glass-panel-dark faq-item" style="padding: 1.5rem; cursor: pointer;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <h4 style="color: #FFF; font-size: 1.05rem; font-family: var(--font-heading);">Can I request custom stone or velvet finish options?</h4>
+              <i class="fas fa-chevron-down text-gold faq-icon"></i>
+            </div>
+            <div class="faq-answer" style="display: none; margin-top: 1rem; color: var(--text-light-secondary); font-size: 0.9rem; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1rem;">
+              Yes, AURA Atelier offers bespoke customization. We can source specific Nero Marquina or Calacatta marble slabs and custom dye velvet and raw silk drapery to complement your architectural swatches.
+            </div>
+          </div>
+
+          <div class="glass-panel-dark faq-item" style="padding: 1.5rem; cursor: pointer;">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <h4 style="color: #FFF; font-size: 1.05rem; font-family: var(--font-heading);">What is the warranty coverage on solid wood frames?</h4>
+              <i class="fas fa-chevron-down text-gold faq-icon"></i>
+            </div>
+            <div class="faq-answer" style="display: none; margin-top: 1rem; color: var(--text-light-secondary); font-size: 0.9rem; line-height: 1.6; border-top: 1px solid rgba(255,255,255,0.08); padding-top: 1rem;">
+              All solid American Walnut and Japanese Oak structural frames carry a 10-Year Lifetime Structural Guarantee against joint failure or warping.
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Shared Footer -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script type="module" src="js/store.js"></script>
+  <script type="module" src="js/products-data.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module">
+    import { showToast } from './js/main.js';
+
+    document.getElementById('contact-concierge-form').onsubmit = (e) => {
+      e.preventDefault();
+      showToast('Thank you! Our private concierge will contact you within 24 hours.');
+      e.target.reset();
+    };
+
+    // Accordion toggle
+    document.querySelectorAll('.faq-item').forEach(item => {
+      item.onclick = () => {
+        const answer = item.querySelector('.faq-answer');
+        const icon = item.querySelector('.faq-icon');
+        if (answer.style.display === 'none' || !answer.style.display) {
+          answer.style.display = 'block';
+          icon.className = 'fas fa-chevron-up text-gold faq-icon';
+        } else {
+          answer.style.display = 'none';
+          icon.className = 'fas fa-chevron-down text-gold faq-icon';
+        }
+      };
+    });
+  </script>
+</body>
+</html>

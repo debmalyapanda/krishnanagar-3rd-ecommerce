@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout | AURA Atelier</title>
+  <meta name="description" content="Complete your purchase securely at AURA Atelier luxury interior design online store.">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/glassmorphism.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Shared Header -->
+  <header id="site-header"></header>
+
+  <!-- Checkout Workspace -->
+  <section style="padding: 4rem 0 7rem 0;">
+    <div class="container" id="checkout-workspace">
+      
+      <!-- Checkout Step Bar -->
+      <div style="display: flex; justify-content: center; gap: 3rem; margin-bottom: 3.5rem; text-align: center;">
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <span style="width: 32px; height: 32px; border-radius: 50%; background: var(--gold-primary); color: #000; font-weight: 800; display: inline-flex; align-items: center; justify-content: center;">1</span>
+          <span style="color: #FFF; font-weight: 600; font-size: 0.9rem;">Shipping & Address</span>
+        </div>
+        <div style="width: 60px; height: 2px; background: var(--border-gold); align-self: center;"></div>
+        <div style="display: flex; align-items: center; gap: 0.75rem;">
+          <span style="width: 32px; height: 32px; border-radius: 50%; background: var(--gold-primary); color: #000; font-weight: 800; display: inline-flex; align-items: center; justify-content: center;">2</span>
+          <span style="color: #FFF; font-weight: 600; font-size: 0.9rem;">Payment & Review</span>
+        </div>
+      </div>
+
+      <form id="checkout-form">
+        <div style="display: grid; grid-template-columns: 1fr 420px; gap: 3.5rem; align-items: start;">
+          
+          <!-- Billing & Payment Column -->
+          <div>
+            <!-- Shipping Address -->
+            <div class="glass-panel-dark" style="padding: 2.5rem; margin-bottom: 2.5rem;">
+              <h3 style="font-family: var(--font-heading); color: #FFF; font-size: 1.25rem; margin-bottom: 1.5rem;"><i class="fas fa-location-dot text-gold"></i> SHIPPING ADDRESS</h3>
+              
+              <div class="grid grid-cols-2" style="gap: 1.25rem; margin-bottom: 1.25rem;">
+                <div>
+                  <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">First Name *</label>
+                  <input type="text" required class="glass-input" placeholder="Victoria">
+                </div>
+                <div>
+                  <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Last Name *</label>
+                  <input type="text" required class="glass-input" placeholder="Sterling">
+                </div>
+              </div>
+
+              <div class="grid grid-cols-2" style="gap: 1.25rem; margin-bottom: 1.25rem;">
+                <div>
+                  <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Email Address *</label>
+                  <input type="email" required class="glass-input" placeholder="v.sterling@residence.com">
+                </div>
+                <div>
+                  <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Concierge Phone *</label>
+                  <input type="tel" required class="glass-input" placeholder="+1 (555) 019-2834">
+                </div>
+              </div>
+
+              <div style="margin-bottom: 1.25rem;">
+                <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Residence Street Address *</label>
+                <input type="text" required class="glass-input" placeholder="740 Park Avenue, Apt 14B">
+              </div>
+
+              <div class="grid grid-cols-3" style="gap: 1.25rem;">
+                <div>
+                  <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">City *</label>
+                  <input type="text" required class="glass-input" placeholder="New York">
+                </div>
+                <div>
+                  <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">State / Region *</label>
+                  <input type="text" required class="glass-input" placeholder="NY">
+                </div>
+                <div>
+                  <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Postal Code *</label>
+                  <input type="text" required class="glass-input" placeholder="10021">
+                </div>
+              </div>
+            </div>
+
+            <!-- Payment Options & Virtual Card Preview -->
+            <div class="glass-panel-dark" style="padding: 2.5rem;">
+              <h3 style="font-family: var(--font-heading); color: #FFF; font-size: 1.25rem; margin-bottom: 1.5rem;"><i class="fas fa-credit-card text-gold"></i> PAYMENT METHOD</h3>
+              
+              <div style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+                <button type="button" class="btn btn-gold payment-tab-btn" data-payment="card">Credit / Debit Card</button>
+                <button type="button" class="btn btn-glass payment-tab-btn" data-payment="apple">Apple Pay / Google Pay</button>
+                <button type="button" class="btn btn-glass payment-tab-btn" data-payment="wire">Concierge Wire Transfer</button>
+              </div>
+
+              <!-- Credit Card Panel -->
+              <div id="payment-card" class="payment-panel">
+                
+                <!-- Live Virtual Credit Card Preview -->
+                <div style="background: linear-gradient(135deg, #1f2233 0%, #0d0e14 100%); border: 1px solid var(--gold-primary); border-radius: 14px; padding: 2rem; margin-bottom: 2rem; position: relative; box-shadow: var(--shadow-gold);">
+                  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2.5rem;">
+                    <span style="font-family: var(--font-heading); font-size: 1.1rem; color: var(--gold-primary); letter-spacing: 0.15em;">AURA BLACK CARD</span>
+                    <i class="fab fa-cc-visa" style="font-size: 2rem; color: #FFF;"></i>
+                  </div>
+                  <div id="card-preview-number" style="font-family: monospace; font-size: 1.35rem; letter-spacing: 0.2em; color: #FFF; margin-bottom: 1.5rem;">
+                    •••• •••• •••• ••••
+                  </div>
+                  <div style="display: flex; justify-content: space-between; text-transform: uppercase;">
+                    <div>
+                      <span style="display: block; font-size: 0.6rem; color: var(--gold-primary);">CARDHOLDER</span>
+                      <span id="card-preview-name" style="font-size: 0.85rem; color: #FFF; font-weight: 600;">CLIENT NAME</span>
+                    </div>
+                    <div>
+                      <span style="display: block; font-size: 0.6rem; color: var(--gold-primary);">EXPIRES</span>
+                      <span id="card-preview-exp" style="font-size: 0.85rem; color: #FFF; font-weight: 600;">MM/YY</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Card Form Inputs -->
+                <div style="margin-bottom: 1.25rem;">
+                  <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Card Number *</label>
+                  <input type="text" id="card-number-input" required class="glass-input" placeholder="4111 2222 3333 4444" maxlength="19">
+                </div>
+
+                <div class="grid grid-cols-2" style="gap: 1.25rem;">
+                  <div>
+                    <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Name on Card *</label>
+                    <input type="text" id="card-name-input" required class="glass-input" placeholder="Victoria Sterling">
+                  </div>
+                  <div>
+                    <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Expiry Date & CVV *</label>
+                    <div style="display: flex; gap: 0.5rem;">
+                      <input type="text" id="card-exp-input" required class="glass-input" placeholder="12/28" maxlength="5">
+                      <input type="text" required class="glass-input" placeholder="888" maxlength="4" style="width: 75px;">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Digital Pay Panel -->
+              <div id="payment-apple" class="payment-panel" style="display: none; text-align: center; padding: 2rem 0;">
+                <i class="fab fa-apple-pay text-gold" style="font-size: 4rem; margin-bottom: 1rem;"></i>
+                <p style="color: var(--text-light-secondary); font-size: 0.9rem;">Touch ID or Face ID validation will be triggered upon clicking Place Order.</p>
+              </div>
+
+              <!-- Wire Transfer Panel -->
+              <div id="payment-wire" class="payment-panel" style="display: none; padding: 1.5rem; background: rgba(255,255,255,0.03); border-radius: 6px; border: 1px solid var(--border-gold);">
+                <h4 style="color: var(--gold-primary); font-size: 0.9rem; margin-bottom: 0.5rem;">ATELIER PRIVATE BANKING</h4>
+                <p style="color: var(--text-light-secondary); font-size: 0.85rem; line-height: 1.6;">Proforma invoice and Swift IBAN details will be provided by your assigned concierge immediately upon submission.</p>
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Checkout Order Summary Column -->
+          <div class="glass-card-gold" style="padding: 2.25rem; position: sticky; top: 110px;">
+            <h3 style="font-family: var(--font-heading); color: #FFF; font-size: 1.25rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1);">ORDER PREVIEW</h3>
+            
+            <div id="checkout-items-list" style="max-height: 300px; overflow-y: auto; margin-bottom: 1.5rem;">
+              <!-- Dynamic item list -->
+            </div>
+
+            <div style="display: flex; justify-content: space-between; padding-top: 1rem; border-top: 1px solid var(--border-gold); font-size: 1.3rem; font-weight: 800; color: #FFF; margin-bottom: 2rem;">
+              <span>Grand Total:</span>
+              <span id="checkout-grand-total" style="color: var(--gold-primary);">$0</span>
+            </div>
+
+            <button type="submit" class="btn btn-gold" style="width: 100%; padding: 1.25rem; font-size: 0.9rem; letter-spacing: 0.15em;">
+              Place Luxury Order &rarr;
+            </button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Shared Footer -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script type="module" src="js/store.js"></script>
+  <script type="module" src="js/products-data.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/checkout.js"></script>
+</body>
+</html>

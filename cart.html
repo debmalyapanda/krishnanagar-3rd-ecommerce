@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart | AURA Atelier</title>
+  <meta name="description" content="Review your selected luxury furniture, lighting, and interior design items in your AURA Atelier shopping bag.">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/glassmorphism.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Shared Header -->
+  <header id="site-header"></header>
+
+  <!-- Page Banner -->
+  <section style="background: #0E1017; padding: 4rem 0; text-align: center; border-bottom: 1px solid var(--border-dark);">
+    <div class="container">
+      <span class="section-subtitle">CLIENT SELECTION</span>
+      <h1 style="font-size: 2.2rem; color: #FFF; letter-spacing: 0.1em; margin-top: 0.5rem;">YOUR ATELIER SHOPPING BAG</h1>
+    </div>
+  </section>
+
+  <!-- Cart Workspace -->
+  <section style="padding: 4rem 0 7rem 0;">
+    <div class="container" id="cart-workspace">
+      <div style="display: grid; grid-template-columns: 1fr 380px; gap: 3rem; align-items: start;">
+        
+        <!-- Cart Items Column -->
+        <div>
+          <h3 style="font-family: var(--font-heading); color: #FFF; font-size: 1.2rem; margin-bottom: 1.5rem;"><i class="fas fa-bag-shopping text-gold"></i> SELECTED ITEMS</h3>
+          <div id="cart-items-container">
+            <!-- Dynamic Cart Items -->
+          </div>
+
+          <!-- Coupon & Shipping Estimator Row -->
+          <div class="grid grid-cols-2" style="gap: 1.5rem; margin-top: 2rem;">
+            <div class="glass-panel-dark" style="padding: 1.5rem;">
+              <h4 style="color: var(--gold-primary); font-size: 0.85rem; margin-bottom: 0.75rem;">VIP PROMO CODE</h4>
+              <div style="display: flex; gap: 0.5rem;">
+                <input type="text" id="coupon-input" class="glass-input" placeholder="e.g. LUXE20" style="padding: 0.75rem;">
+                <button id="apply-coupon-btn" class="btn btn-gold" style="padding: 0.75rem 1.25rem;">Apply</button>
+              </div>
+              <span style="display: block; font-size: 0.75rem; color: var(--text-light-muted); margin-top: 0.5rem;">Try promo code <strong style="color: var(--gold-primary);">LUXE20</strong> for 20% off.</span>
+            </div>
+
+            <div class="glass-panel-dark" style="padding: 1.5rem;">
+              <h4 style="color: var(--gold-primary); font-size: 0.85rem; margin-bottom: 0.75rem;">SHIPPING METHOD</h4>
+              <select id="shipping-method-select" class="glass-input" style="padding: 0.75rem;">
+                <option value="0" style="background: #12141D;">White-Glove Standard Delivery (Complimentary > $2,500)</option>
+                <option value="350" style="background: #12141D;">VIP Express Climate-Controlled Air Freight (+$350)</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+        <!-- Order Summary Card -->
+        <div class="glass-card-gold" style="padding: 2.25rem;">
+          <h3 style="font-family: var(--font-heading); color: #FFF; font-size: 1.25rem; margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid rgba(255,255,255,0.1);">ORDER SUMMARY</h3>
+          
+          <div style="display: flex; flex-direction: column; gap: 1rem; margin-bottom: 2rem;">
+            <div style="display: flex; justify-content: space-between; color: var(--text-light-secondary); font-size: 0.9rem;">
+              <span>Subtotal:</span>
+              <span id="summary-subtotal" style="font-weight: 600; color: #FFF;">$0</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; color: var(--gold-primary); font-size: 0.9rem;">
+              <span>Coupon Discount:</span>
+              <span id="summary-discount" style="font-weight: 600;">-$0</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; color: var(--text-light-secondary); font-size: 0.9rem;">
+              <span>Estimated Shipping:</span>
+              <span id="summary-shipping" style="font-weight: 600; color: #FFF;">COMPLIMENTARY</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; color: var(--text-light-secondary); font-size: 0.9rem;">
+              <span>Estimated Tax (8%):</span>
+              <span id="summary-tax" style="font-weight: 600; color: #FFF;">$0</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-top: 1rem; border-top: 1px solid var(--border-gold); font-size: 1.25rem; font-weight: 800; color: #FFF;">
+              <span>Total Amount:</span>
+              <span id="summary-total" style="color: var(--gold-primary);">$0</span>
+            </div>
+          </div>
+
+          <a href="checkout.html" class="btn btn-gold" style="width: 100%; text-align: center; padding: 1.1rem;">Proceed To Checkout &rarr;</a>
+
+          <div style="margin-top: 1.5rem; text-align: center; font-size: 0.75rem; color: var(--text-light-muted);">
+            <i class="fas fa-shield-halved text-gold"></i> 256-Bit Encrypted Secure Atelier Checkout
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Shared Footer -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script type="module" src="js/store.js"></script>
+  <script type="module" src="js/products-data.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module" src="js/checkout.js"></script>
+</body>
+</html>

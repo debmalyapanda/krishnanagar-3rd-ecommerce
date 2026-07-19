@@ -1,0 +1,1486 @@
+[
+  {
+    "id": 1,
+    "name": "Aurelia Velvet Curved Sofa",
+    "category": "Sofas",
+    "price": 3850,
+    "originalPrice": 4400,
+    "discount": 12,
+    "rating": 4.9,
+    "reviewCount": 48,
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "shortDescription": "Handcrafted curved statement sofa upholstered in royal emerald velvet with brushed gold brass trim base.",
+    "fullDescription": "The Aurelia Curved Sofa brings sculptural drama and supreme comfort to modern luxury living spaces. Tailored by master upholsterers, its sweeping silhouette is wrapped in opulent stain-resistant cotton velvet and supported by a concealed kiln-dried hardwood frame anchored with brushed champagne gold stainless steel.",
+    "specifications": {
+      "Dimensions": "W: 96\" x D: 42\" x H: 31\"",
+      "Material": "Italian Cotton Velvet, Solid Ash, Brushed Brass Base",
+      "Color Options": "Emerald, Midnight Obsidian, Champagne Ivory",
+      "Warranty": "10-Year Structural Frame Warranty",
+      "Origin": "Handcrafted in Florence, Italy",
+      "Care Instructions": "Professional upholstery dry clean only"
+    },
+    "reviews": [
+      {
+        "author": "Victoria Sterling",
+        "rating": 5,
+        "date": "2026-06-14",
+        "title": "Absolute Centerpiece of our Living Room",
+        "comment": "The tactile texture of the velvet and the architectural curve elevated our whole salon. White glove delivery was flawless."
+      },
+      {
+        "author": "Julian Vance",
+        "rating": 5,
+        "date": "2026-05-28",
+        "title": "Unrivaled Craftsmanship",
+        "comment": "Extremely comfortable yet maintains its firm sculptural shape. Worth every penny."
+      }
+    ],
+    "frequentlyBoughtTogether": [8, 15]
+  },
+  {
+    "id": 2,
+    "name": "Calacatta Gold Marble Dining Table",
+    "category": "Dining Tables",
+    "price": 6200,
+    "originalPrice": 6900,
+    "discount": 10,
+    "rating": 5.0,
+    "reviewCount": 32,
+    "image": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": true,
+    "shortDescription": "Quarried Tuscan Calacatta gold marble slab with polished bullnose edge and ribbed dark walnut pedestal base.",
+    "fullDescription": "Each Calacatta Gold Dining Table features unique dramatic grey and golden honey veining sourced directly from Carrara quarries. Sealed with an invisible stain shield matte coat and paired with a fluted solid walnut pedestal.",
+    "specifications": {
+      "Dimensions": "L: 94\" x W: 44\" x H: 30\"",
+      "Material": "Natural Calacatta Gold Marble, American Black Walnut",
+      "Seating Capacity": "Seats 8-10 Guests comfortably",
+      "Warranty": "5-Year Marble Integrity Warranty",
+      "Origin": "Tuscany, Italy",
+      "Care Instructions": "Wipe with pH-neutral marble cleaner. Avoid acidic fluids."
+    },
+    "reviews": [
+      {
+        "author": "Elena Rostova",
+        "rating": 5,
+        "date": "2026-06-02",
+        "title": "Breathtaking Marble Veining",
+        "comment": "The gold veining is even more gorgeous in person. It dominates dinner conversations in the best way."
+      }
+    ],
+    "frequentlyBoughtTogether": [11, 24]
+  },
+  {
+    "id": 3,
+    "name": "Solstice Sculptural Brass Chandelier",
+    "category": "Lights",
+    "price": 2450,
+    "originalPrice": 2800,
+    "discount": 12,
+    "rating": 4.8,
+    "reviewCount": 27,
+    "image": "https://images.unsplash.com/photo-1543198181-e619b694b311?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1543198181-e619b694b311?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": true,
+    "shortDescription": "Tiered brushed solid brass mobile chandelier with hand-blown frosted opal glass spheres.",
+    "fullDescription": "Art meets illumination in the Solstice Chandelier. Inspired by celestial movement, six asymmetric brass arms balance mouth-blown opal glass diffusers that emit warm ambient light.",
+    "specifications": {
+      "Dimensions": "Diameter: 48\" x Height adjustable up to 72\"",
+      "Material": "Solid Unlacquered Brass, Opal Glass",
+      "Illumination": "Dimmable LED G9 2700K Warm Light",
+      "Warranty": "3-Year Electrical Warranty",
+      "Origin": "Design Atelier Copenhagen"
+    },
+    "reviews": [
+      {
+        "author": "David Chen",
+        "rating": 5,
+        "date": "2026-05-19",
+        "title": "Stunning Light Diffusion",
+        "comment": "Hangs over our high-ceiling foyer. The dimming warmth creates an exquisite evening atmosphere."
+      }
+    ],
+    "frequentlyBoughtTogether": [2, 19]
+  },
+  {
+    "id": 4,
+    "name": "Kyoto Minimalist Oak Platform Bed",
+    "category": "Beds",
+    "price": 4200,
+    "originalPrice": 4500,
+    "discount": 7,
+    "rating": 4.9,
+    "reviewCount": 39,
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1540518614846-7ede433c517a?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7ede433c517a?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": true,
+    "shortDescription": "Floating solid Japanese White Oak bed frame with integrated bedside ledge and leather headboard cushions.",
+    "fullDescription": "Embracing Japandi principles, the Kyoto Bed features jointed solid oak joinery with no visible metallic hardware. Includes dual plush grain-leather headboard pillows attached with matte brass pegs.",
+    "specifications": {
+      "Dimensions": "King Size: W: 86\" x L: 94\" x H: 38\"",
+      "Material": "Solid White Oak, Full Grain Aniline Leather",
+      "Slats": "Included solid pine ergonomic slat bed base",
+      "Warranty": " Lifetime Wood Frame Warranty",
+      "Origin": "Kyoto Craftsmen Workshop"
+    },
+    "reviews": [
+      {
+        "author": "Sora Takahashi",
+        "rating": 5,
+        "date": "2026-06-20",
+        "title": "Zen Perfection",
+        "comment": "Solid wood quality is undeniable. Grounded, serene, and incredibly sturdy."
+      }
+    ],
+    "frequentlyBoughtTogether": [6, 21]
+  },
+  {
+    "id": 5,
+    "name": "Belgian Heavy Linen Curtains (Pair)",
+    "category": "Curtains",
+    "price": 680,
+    "originalPrice": 800,
+    "discount": 15,
+    "rating": 4.7,
+    "reviewCount": 54,
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "100% Organic Belgian flax linen drapes with hidden rod pocket and tailored blackout liner.",
+    "fullDescription": "Woven in Flanders using eco-certified flax, these drapes provide soft acoustic dampening and gentle light filtering. Pre-washed for a supple, relaxed drape with tailored weighted hems.",
+    "specifications": {
+      "Dimensions": "Single Panel: W: 50\" x L: 108\"",
+      "Material": "100% Belgian Flax Linen",
+      "Hanging Style": "Back Tab / Rod Pocket / Curtain Rings",
+      "Origin": "Flanders, Belgium",
+      "Care Instructions": "Dry clean recommended"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [1, 7]
+  },
+  {
+    "id": 6,
+    "name": "Elysian Botanical Metallic Wallpaper",
+    "category": "Wallpaper",
+    "price": 340,
+    "originalPrice": 400,
+    "discount": 15,
+    "rating": 4.9,
+    "reviewCount": 21,
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Hand-screened mural wallcovering featuring subtle gold leaf botanical silhouettes on obsidian ground.",
+    "fullDescription": "Transform your dining room or master suite with the Elysian mural. Non-woven breathable substrate embossed with micro gold foil accents that reflect ambient candlelight.",
+    "specifications": {
+      "Roll Coverage": "56 sq ft per roll (20.5\" W x 33' L)",
+      "Material": "Heavyweight Non-Woven Vinyl Free Fiber",
+      "Match Type": "Straight Match 24\" Repeat",
+      "Origin": "London Studio"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [3, 8]
+  },
+  {
+    "id": 7,
+    "name": "Verdant Monstera Obliqua in Brass Pot",
+    "category": "Plants",
+    "price": 490,
+    "originalPrice": 550,
+    "discount": 11,
+    "rating": 4.8,
+    "reviewCount": 18,
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1545241047-6083a3684587?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": true,
+    "shortDescription": "Acclimatized botanical centerpiece presented in a hammered solid brass planter with saucer base.",
+    "fullDescription": "Carefully cultivated in boutique glasshouses, this mature specimen boasts lush perforated foliage. Comes potted in organic nutrient-rich aerated medium with brass pedestal planter.",
+    "specifications": {
+      "Plant Height": "32\" - 38\" Total Height",
+      "Pot Dimension": "14\" Diameter x 16\" Height",
+      "Light Requirement": "Bright Indirect Sunlight",
+      "Maintenance": "Moderate - Water once weekly"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [1, 9]
+  },
+  {
+    "id": 8,
+    "name": "Atelier Bronze Sculptural Mirror",
+    "category": "Decor",
+    "price": 1850,
+    "originalPrice": 2100,
+    "discount": 12,
+    "rating": 4.9,
+    "reviewCount": 42,
+    "image": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "shortDescription": "Asymmetric lost-wax bronze cast wall mirror with bevelled crystal glass center.",
+    "fullDescription": "A fusion of fine art and function. Hand-cast bronze frame featuring organic undulating edges patinated with hand-rubbed champagne gold highlights.",
+    "specifications": {
+      "Dimensions": "W: 42\" x H: 58\" x D: 2.5\"",
+      "Weight": "45 lbs",
+      "Frame Material": "Solid Cast Bronze",
+      "Glass": "4mm Beveled Distortion-Free Mirror"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [1, 3]
+  },
+  {
+    "id": 9,
+    "name": "Nero Marquina Marble Board & Brass Cutlery",
+    "category": "Kitchen Accessories",
+    "price": 360,
+    "originalPrice": 420,
+    "discount": 14,
+    "rating": 4.8,
+    "reviewCount": 61,
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1590736704728-f4730bb30770?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Spanish Nero Marquina black marble cheese board with 4-piece forged brass tasting knives.",
+    "fullDescription": "Host in grandeur with this polished black marble serving tray finished with non-slip brass feet and accompanied by handcrafted champagne gold cheese tools.",
+    "specifications": {
+      "Dimensions": "Board: 18\" L x 12\" W x 0.75\" H",
+      "Material": "Nero Marquina Marble, Forged Stainless Steel with Gold PVD",
+      "Dishwasher Safe": "Hand wash only"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [2, 10]
+  },
+  {
+    "id": 10,
+    "name": "Executive Walnut & Aniline Leather Desk",
+    "category": "Office Furniture",
+    "price": 4900,
+    "originalPrice": 5600,
+    "discount": 12,
+    "rating": 5.0,
+    "reviewCount": 15,
+    "image": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": true,
+    "shortDescription": "Sculptural executive desk with leather inlaid writing top and concealed wireless charging bay.",
+    "fullDescription": "Designed for visionaries. Crafted from bookmatched American Black Walnut with soft-close hidden drawers, brushed gold cable grommets, and top-grain Italian leather writing pad.",
+    "specifications": {
+      "Dimensions": "W: 72\" x D: 34\" x H: 30\"",
+      "Material": "American Walnut, Aniline Full Grain Leather, Brass Hardware",
+      "Features": "Hidden cable management, Qi Wireless Charging Base built-in"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [20, 3]
+  },
+  {
+    "id": 11,
+    "name": "Velvet Sculptural Dining Chair Set (4)",
+    "category": "Dining Tables",
+    "price": 2800,
+    "originalPrice": 3200,
+    "discount": 12,
+    "rating": 4.9,
+    "reviewCount": 33,
+    "image": "https://images.unsplash.com/photo-1580481072645-022f9a6d1270?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1580481072645-022f9a6d1270?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Set of 4 upholstered dining armchairs with champagne gold legs and wrap-around cushioned backrest.",
+    "fullDescription": "Ergonomically contoured armchairs tailored in stain-resistant mohair velvet. Thin tapered steel legs coated in brushed titanium gold.",
+    "specifications": {
+      "Dimensions": "W: 23\" x D: 22\" x H: 32\" (Seat Height: 19\")",
+      "Material": "Mohair Velvet, Steel Frame with Gold Finish",
+      "Quantity": "Set of 4 Chairs"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [2, 9]
+  },
+  {
+    "id": 12,
+    "name": "Onyx & Crystal Whiskey Decanter Set",
+    "category": "Kitchen Accessories",
+    "price": 420,
+    "originalPrice": 480,
+    "discount": 12,
+    "rating": 4.9,
+    "reviewCount": 29,
+    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Hand-cut lead-free crystal decanter with black onyx stopper and 4 heavy tumbler glasses.",
+    "fullDescription": "Mouth-blown crystal decanter featuring geometric faceting designed to highlight spirit clarity. Presented on a polished black wooden tray.",
+    "specifications": {
+      "Decanter Capacity": "750 ml",
+      "Glasses": "4 x 300 ml Tumblers",
+      "Material": "Lead-free Crystal, Natural Onyx"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [9, 10]
+  },
+  {
+    "id": 13,
+    "name": "Minimalist Fluted Glass Pendant Light",
+    "category": "Lights",
+    "price": 850,
+    "originalPrice": 950,
+    "discount": 10,
+    "rating": 4.7,
+    "reviewCount": 19,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Vertical ribbed glass pendant with solid brass hardware and braided textile cord.",
+    "fullDescription": "Sleek and luminous. Fluted transparent glass cylinder diffuses ambient downward light over kitchen islands or bedside tables.",
+    "specifications": {
+      "Dimensions": "Glass Diameter: 8\" x Height: 18\"",
+      "Cord Length": "10 ft adjustable textile cord",
+      "Bulb": "E26 Warm White LED included"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [2, 5]
+  },
+  {
+    "id": 14,
+    "name": "Cloud Bouclé Sectional Sofa",
+    "category": "Sofas",
+    "price": 5400,
+    "originalPrice": 6200,
+    "discount": 13,
+    "rating": 5.0,
+    "reviewCount": 58,
+    "image": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "shortDescription": "Modular L-shaped sectional wrapped in plush cream textured bouclé with down feather cushions.",
+    "fullDescription": "Sink into ultimate luxury. The Cloud Sectional combines deep relaxing seats with tactile French bouclé fabric. Modular components allow custom configuration.",
+    "specifications": {
+      "Dimensions": "Overall: 124\" W x 88\" Depth x 32\" Height",
+      "Fabric": "Heavyweight Cream Wool Bouclé",
+      "Filling": "Hypoallergenic Goose Down & High Resiliency Foam Core"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [15, 8]
+  },
+  {
+    "id": 15,
+    "name": "Carrara Round Coffee Table",
+    "category": "Furniture",
+    "price": 1650,
+    "originalPrice": 1900,
+    "discount": 13,
+    "rating": 4.8,
+    "reviewCount": 36,
+    "image": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Honest Italian Carrara white marble tabletop on matte black powder-coated steel geometric tripod base.",
+    "fullDescription": "Sleek low-profile coffee table featuring a chamfered Carrara marble disc resting on architectural iron legs.",
+    "specifications": {
+      "Dimensions": "Diameter: 36\" x Height: 15\"",
+      "Material": "Carrara White Marble, Steel Base",
+      "Weight": "72 lbs"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [1, 14]
+  },
+  {
+    "id": 16,
+    "name": "Silk Velvet Drapes in Champagne Gold",
+    "category": "Curtains",
+    "price": 890,
+    "originalPrice": 990,
+    "discount": 10,
+    "rating": 4.9,
+    "reviewCount": 24,
+    "image": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Lustrous heavy silk-blend velvet window panels with blackout lining and weighted bottom seam.",
+    "fullDescription": "Captures ambient light with a subtle golden shimmer. Double-lined for full light exclusion and thermal insulation.",
+    "specifications": {
+      "Dimensions": "W: 54\" x L: 120\"",
+      "Material": "65% Silk, 35% Rayon Velvet",
+      "Lining": "Thermal Blackout Cotton"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [4, 6]
+  },
+  {
+    "id": 17,
+    "name": "Geometric Gold Foil Textured Wallpaper",
+    "category": "Wallpaper",
+    "price": 290,
+    "originalPrice": 340,
+    "discount": 14,
+    "rating": 4.6,
+    "reviewCount": 16,
+    "image": "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Art Deco inspired champagne metallic line work on textured matte ivory back cloth.",
+    "fullDescription": "Adds dimensional sheen to accent walls. Scrubbable, strippable luxury wallcovering crafted in Germany.",
+    "specifications": {
+      "Roll Coverage": "56 sq ft",
+      "Pattern Repeat": "12.5\"",
+      "Material": "Heavy Vinyl Fiber Base"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [3, 8]
+  },
+  {
+    "id": 18,
+    "name": "Majestic Fiddle Leaf Fig in Hand-Turned Terracotta",
+    "category": "Plants",
+    "price": 420,
+    "originalPrice": 480,
+    "discount": 12,
+    "rating": 4.8,
+    "reviewCount": 31,
+    "image": "https://images.unsplash.com/photo-1545241047-6083a3684587?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1545241047-6083a3684587?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "6-foot tall living Ficus Lyrata tree with lush fiddle leaves in handcrafted matte terracotta pot.",
+    "fullDescription": "Carefully trained tree structure bringing architectural greenery into grand living rooms and offices.",
+    "specifications": {
+      "Height": "6 feet",
+      "Pot Diameter": "16 inches",
+      "Origin": "California Nursery"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [7, 15]
+  },
+  {
+    "id": 19,
+    "name": "Hand-Blown Amber Crystal Vase Trio",
+    "category": "Decor",
+    "price": 540,
+    "originalPrice": 620,
+    "discount": 12,
+    "rating": 4.9,
+    "reviewCount": 26,
+    "image": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Set of 3 organic blown amber glass vessel sculptures with molten rim detailing.",
+    "fullDescription": "Crafted by master glassblowers in Murano, Italy. Each vase catches sunlight with warm golden honey gradients.",
+    "specifications": {
+      "Heights": "Vase A: 14\", Vase B: 10\", Vase C: 7\"",
+      "Material": "Murano Blown Lead Crystal"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [2, 15]
+  },
+  {
+    "id": 20,
+    "name": "Monarch Ergonomic Leather Executive Chair",
+    "category": "Office Furniture",
+    "price": 2650,
+    "originalPrice": 2950,
+    "discount": 10,
+    "rating": 4.9,
+    "reviewCount": 37,
+    "image": "https://images.unsplash.com/photo-1580481072645-022f9a6d1270?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1580481072645-022f9a6d1270?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "High-back top-grain cognac leather office chair with synchronized tilt mechanism and polished brass base.",
+    "fullDescription": "Ultimate ergonomic luxury. Pneumatic height adjustment, multi-stage tilt lock, and memory foam lumbar contouring.",
+    "specifications": {
+      "Dimensions": "W: 28\" x D: 28\" x H: 46\"-50\"",
+      "Material": "Italian Aniline Cognac Leather, Solid Cast Aluminum & Brass"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [10, 3]
+  },
+  {
+    "id": 21,
+    "name": "Opulent Upholstered Velvet King Bed",
+    "category": "Beds",
+    "price": 4800,
+    "originalPrice": 5400,
+    "discount": 11,
+    "rating": 5.0,
+    "reviewCount": 45,
+    "image": "https://images.unsplash.com/photo-1540518614846-7ede433c517a?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1540518614846-7ede433c517a?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "shortDescription": "Tall winged headboard upholstered in channel-tufted midnight blue velvet with gold trim edge.",
+    "fullDescription": "A grand sanctuary centerpiece. Hand-tufted vertically aligned panels creating dramatic height and plush back support.",
+    "specifications": {
+      "Dimensions": "King Size: W: 84\" x L: 90\" x Headboard H: 64\"",
+      "Material": "Cotton Silk Velvet, Kiln-Dried Hardwood Frame"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [5, 16]
+  },
+  {
+    "id": 22,
+    "name": "Solid Walnut & Brass Credenza Sideboard",
+    "category": "Furniture",
+    "price": 3950,
+    "originalPrice": 4400,
+    "discount": 10,
+    "rating": 4.9,
+    "reviewCount": 22,
+    "image": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": true,
+    "shortDescription": "4-door dining storage sideboard featuring slatted walnut wood doors and brushed brass leg frame.",
+    "fullDescription": "Ample internal storage with soft-close cutlery drawers and adjustable tempered glass shelves.",
+    "specifications": {
+      "Dimensions": "W: 78\" x D: 19\" x H: 32\"",
+      "Material": "American Black Walnut, Solid Brass"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [2, 12]
+  },
+  {
+    "id": 23,
+    "name": "Sovereign Brushed Brass Floor Lamp",
+    "category": "Lights",
+    "price": 1250,
+    "originalPrice": 1400,
+    "discount": 10,
+    "rating": 4.8,
+    "reviewCount": 20,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1543198181-e619b694b311?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Arcing brass standing lamp anchored with heavy Nero Marquina marble slab base.",
+    "fullDescription": "Sweeps gracefully over armchairs or reading nooks. Equipped with touch-sensitive dimming button.",
+    "specifications": {
+      "Height": "78\"",
+      "Base": "Solid Black Marble 14\" Base",
+      "Finish": "Brushed Warm Gold"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [1, 15]
+  },
+  {
+    "id": 24,
+    "name": "Solid Walnut 8-Piece Dining Table Set",
+    "category": "Dining Tables",
+    "price": 7500,
+    "originalPrice": 8500,
+    "discount": 11,
+    "rating": 5.0,
+    "reviewCount": 14,
+    "image": "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": true,
+    "shortDescription": "Live-edge solid walnut dining table accompanied by 6 dining chairs and 1 bench.",
+    "fullDescription": "Natural tree grain contours preserved in satin oil finish. Supported by matte black steel trapezoid legs.",
+    "specifications": {
+      "Dimensions": "Table: 100\" L x 42\" W x 30\" H",
+      "Material": "Sustainable American Black Walnut Wood"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [9, 12]
+  },
+  {
+    "id": 25,
+    "name": "Minimalist Japanese Tatami Floor Cushion",
+    "category": "Decor",
+    "price": 280,
+    "originalPrice": 320,
+    "discount": 12,
+    "rating": 4.6,
+    "reviewCount": 19,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Woven Rush Grass seating cushion with memory foam insert.",
+    "fullDescription": "Brings serene tactile warmth to lounge areas and tea rooms.",
+    "specifications": {
+      "Dimensions": "24\" x 24\" x 4\"",
+      "Material": "Natural Igusa Rush Straw"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [4, 7]
+  },
+  {
+    "id": 26,
+    "name": "Linear Brass Kitchen Island Chandelier",
+    "category": "Lights",
+    "price": 1950,
+    "originalPrice": 2200,
+    "discount": 11,
+    "rating": 4.9,
+    "reviewCount": 28,
+    "image": "https://images.unsplash.com/photo-1543198181-e619b694b311?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1543198181-e619b694b311?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "60-inch horizontal brass beam with integrated downward warm LED strip.",
+    "fullDescription": "Ultra-slim suspended illumination designed for luxury marble kitchen islands.",
+    "specifications": {
+      "Length": "60 inches",
+      "Wattage": "45W LED 3000K Warm White"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [2, 9]
+  },
+  {
+    "id": 27,
+    "name": "Luxury Silk Embroidered Throw Pillow Set",
+    "category": "Decor",
+    "price": 320,
+    "originalPrice": 380,
+    "discount": 15,
+    "rating": 4.8,
+    "reviewCount": 40,
+    "image": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Pair of 20x20 feather-filled accent cushions in gold embroidered black silk.",
+    "fullDescription": "Hand-stitched geometric motifs with hidden zip closure.",
+    "specifications": {
+      "Size": "20\" x 20\"",
+      "Filling": "90/10 Feather Down"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [1, 14]
+  },
+  {
+    "id": 28,
+    "name": "Executive Leather Writing Desk Mat",
+    "category": "Office Furniture",
+    "price": 220,
+    "originalPrice": 250,
+    "discount": 12,
+    "rating": 4.7,
+    "reviewCount": 51,
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Full-grain Italian saddle leather desk blotter with waterproof suede backing.",
+    "fullDescription": "Protects desk surfaces while providing smooth mouse tracking.",
+    "specifications": {
+      "Dimensions": "36\" x 18\"",
+      "Material": "Tuscan Tan Saddle Leather"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [10, 20]
+  },
+  {
+    "id": 29,
+    "name": "Grand Scale Olive Tree in Aged Stone Planter",
+    "category": "Plants",
+    "price": 650,
+    "originalPrice": 750,
+    "discount": 13,
+    "rating": 4.9,
+    "reviewCount": 23,
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1545241047-6083a3684587?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "7-foot preserved Mediterranean olive tree potted in hand-carved grey stone trough.",
+    "fullDescription": "Brings serene southern European courtyard charm into luxury interior foyers.",
+    "specifications": {
+      "Height": "7 Feet",
+      "Planter": "Aged Cast Limestone Trough"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [2, 8]
+  },
+  {
+    "id": 30,
+    "name": "Custom Hand-Knotted Wool & Silk Area Rug",
+    "category": "Decor",
+    "price": 4500,
+    "originalPrice": 5200,
+    "discount": 13,
+    "rating": 5.0,
+    "reviewCount": 17,
+    "image": "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "shortDescription": "9x12 ft oversized rug woven with 150 knots per square inch in ivory and gold mineral hues.",
+    "fullDescription": "Crafted over 6 months by artisan weavers using Tibetan highland wool and mulberry silk.",
+    "specifications": {
+      "Dimensions": "9' x 12'",
+      "Knot Density": "150 PSI",
+      "Fiber": "80% New Zealand Wool, 20% Mulberry Silk"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [1, 14]
+  },
+  {
+    "id": 31,
+    "name": "Minimalist Japanese Oak Armchair",
+    "category": "Furniture",
+    "price": 1450,
+    "originalPrice": 1650,
+    "discount": 12,
+    "rating": 4.8,
+    "reviewCount": 25,
+    "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1580481072645-022f9a6d1270?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Steam-bent oak wood lounge chair with woven paper cord seating.",
+    "fullDescription": "Timeless Scandinavian-Japanese fusion accent chair.",
+    "specifications": {
+      "Dimensions": "W: 27\" x D: 28\" x H: 29\"",
+      "Material": "Solid White Oak, Natural Kraft Paper Cord"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [4, 15]
+  },
+  {
+    "id": 32,
+    "name": "Artisan Gold Leaf Brass Wall Sconce (Pair)",
+    "category": "Lights",
+    "price": 920,
+    "originalPrice": 1050,
+    "discount": 12,
+    "rating": 4.9,
+    "reviewCount": 18,
+    "image": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1543198181-e619b694b311?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Hand-hammered brass leaf sconces projecting warm ambient halo light.",
+    "fullDescription": "Ideal flanking vanity mirrors or hallway artwork.",
+    "specifications": {
+      "Dimensions": "H: 18\" x W: 8\" x Depth: 4\"",
+      "Wattage": "Dimmable 12W LED"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [8, 4]
+  },
+  {
+    "id": 33,
+    "name": "Italian Leather Tufted Ottoman",
+    "category": "Furniture",
+    "price": 1280,
+    "originalPrice": 1450,
+    "discount": 11,
+    "rating": 4.7,
+    "reviewCount": 22,
+    "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Square tufted cocktail footstool in full-grain cognac hide.",
+    "fullDescription": "Functions as a coffee table or supplementary seating.",
+    "specifications": {
+      "Dimensions": "36\" x 36\" x 17\" H",
+      "Leather": "Top Grain Italian Calfskin"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [1, 15]
+  },
+  {
+    "id": 34,
+    "name": "Sculptural Ceramic Teapot & Cup Set",
+    "category": "Kitchen Accessories",
+    "price": 280,
+    "originalPrice": 320,
+    "discount": 12,
+    "rating": 4.9,
+    "reviewCount": 35,
+    "image": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Hand-cast matte black ceramic teapot with wooden handle and 4 matching cups.",
+    "fullDescription": "Artisan tea set fired at high temperatures with satin glaze.",
+    "specifications": {
+      "Teapot Capacity": "900 ml",
+      "Cups": "4 x 150 ml Cups"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [9, 25]
+  },
+  {
+    "id": 35,
+    "name": "Sheer Belgian Linen Curtains (Pair)",
+    "category": "Curtains",
+    "price": 490,
+    "originalPrice": 560,
+    "discount": 12,
+    "rating": 4.8,
+    "reviewCount": 41,
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Translucent white organic flax drapes providing airy privacy.",
+    "fullDescription": "Softly filters daylight while maintaining connection to outdoor garden views.",
+    "specifications": {
+      "Dimensions": "Single Panel: 50\" W x 108\" L",
+      "Material": "100% Pure Gauze Linen"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [5, 18]
+  },
+  {
+    "id": 36,
+    "name": "Hand-Carved Calacatta Marble Bowl",
+    "category": "Decor",
+    "price": 380,
+    "originalPrice": 440,
+    "discount": 13,
+    "rating": 4.9,
+    "reviewCount": 28,
+    "image": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Fluted solid white marble decorative centerpiece bowl.",
+    "fullDescription": "Carved from a single block of Italian marble with scalloped rim detail.",
+    "specifications": {
+      "Dimensions": "12\" Diameter x 4\" Height",
+      "Weight": "9 lbs"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [2, 15]
+  },
+  {
+    "id": 37,
+    "name": "Minimalist Walnut Bookcase Shelf Unit",
+    "category": "Furniture",
+    "price": 3200,
+    "originalPrice": 3600,
+    "discount": 11,
+    "rating": 4.8,
+    "reviewCount": 16,
+    "image": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Architectural open shelving unit with solid walnut uprights and brass dividers.",
+    "fullDescription": "Display books, sculptures, and art objects with airy elegance.",
+    "specifications": {
+      "Dimensions": "W: 48\" x D: 16\" x H: 76\"",
+      "Material": "American Walnut, Satin Brass Rods"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [10, 19]
+  },
+  {
+    "id": 38,
+    "name": "Textured Charcoal Grasscloth Wallpaper",
+    "category": "Wallpaper",
+    "price": 310,
+    "originalPrice": 360,
+    "discount": 14,
+    "rating": 4.7,
+    "reviewCount": 20,
+    "image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Handcrafted natural sisal grasscloth colored in rich deep charcoal.",
+    "fullDescription": "Introduces tactile richness and subtle organic texture to study or bedroom walls.",
+    "specifications": {
+      "Roll Coverage": "72 sq ft",
+      "Material": "100% Natural Woven Sisal Grass"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [6, 8]
+  },
+  {
+    "id": 39,
+    "name": "Velvet Curved Accent Lounge Chair",
+    "category": "Sofas",
+    "price": 1850,
+    "originalPrice": 2100,
+    "discount": 12,
+    "rating": 4.9,
+    "reviewCount": 38,
+    "image": "https://images.unsplash.com/photo-1580481072645-022f9a6d1270?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1580481072645-022f9a6d1270?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Swivel barrel chair wrapped in plush terracotta velvet with brass plinth base.",
+    "fullDescription": "360-degree smooth swivel motion with enveloping cozy armrests.",
+    "specifications": {
+      "Dimensions": "W: 34\" x D: 33\" x H: 30\"",
+      "Material": "Stain Resistant Velvet, Stainless Steel Base"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [1, 15]
+  },
+  {
+    "id": 40,
+    "name": "Rare Monstera Deliciosa Alva in Gold Planter",
+    "category": "Plants",
+    "price": 580,
+    "originalPrice": 650,
+    "discount": 10,
+    "rating": 5.0,
+    "reviewCount": 14,
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1545241047-6083a3684587?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Highly variegated white-and-green Monstera in a brushed gold cylinder pot.",
+    "fullDescription": "Collector specimen plant with striking white leaf marbling.",
+    "specifications": {
+      "Height": "40 inches",
+      "Pot": "Brushed Gold Metal Planter with Drainage Tray"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [7, 8]
+  },
+  {
+    "id": 41,
+    "name": "Luxury Goose Down Hotel Bedding Set",
+    "category": "Beds",
+    "price": 1150,
+    "originalPrice": 1300,
+    "discount": 11,
+    "rating": 4.9,
+    "reviewCount": 52,
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1540518614846-7ede433c517a?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "1000 Thread Count Egyptian Cotton duvet cover, 2 shams, and 800 fill goose down insert.",
+    "fullDescription": "Experience 5-star suite sleeping comfort with silky satin stitch border detail.",
+    "specifications": {
+      "Size": "King Size",
+      "Material": "100% Long-Staple Giza Cotton, Hungarian Down"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [4, 21]
+  },
+  {
+    "id": 42,
+    "name": "Solid Brass Architectural Door Handles (Pair)",
+    "category": "Decor",
+    "price": 260,
+    "originalPrice": 300,
+    "discount": 13,
+    "rating": 4.8,
+    "reviewCount": 15,
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Heavy knurled brass pull handles for entry doors and cabinet hardware.",
+    "fullDescription": "Precision CNC machined solid brass with protective matte lacquer.",
+    "specifications": {
+      "Length": "12 inches",
+      "Finish": "Unlacquered Satin Gold Brass"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [22, 10]
+  },
+  {
+    "id": 43,
+    "name": "Minimalist Round Gold Framed Mirror",
+    "category": "Decor",
+    "price": 780,
+    "originalPrice": 880,
+    "discount": 11,
+    "rating": 4.8,
+    "reviewCount": 44,
+    "image": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "36-inch diameter circular vanity mirror with slim brushed brass rim.",
+    "fullDescription": "Clean, timeless silhouette suitable for bathrooms, entryways, or living rooms.",
+    "specifications": {
+      "Diameter": "36 inches",
+      "Frame Depth": "1.25 inches"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [8, 32]
+  },
+  {
+    "id": 44,
+    "name": "Modernist Ceramic Table Lamp",
+    "category": "Lights",
+    "price": 640,
+    "originalPrice": 720,
+    "discount": 11,
+    "rating": 4.7,
+    "reviewCount": 22,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Textured white ceramic vase lamp topped with linen drum shade.",
+    "fullDescription": "Sculptural organic ceramic base creating warm bedside lighting.",
+    "specifications": {
+      "Height": "26 inches",
+      "Shade Diameter": "16 inches"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [4, 5]
+  },
+  {
+    "id": 45,
+    "name": "Japanese Cypress Wood Bath Accessories Set",
+    "category": "Kitchen Accessories",
+    "price": 240,
+    "originalPrice": 280,
+    "discount": 14,
+    "rating": 4.8,
+    "reviewCount": 17,
+    "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1578500494198-246f612d3b3d?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "4-piece Hinoki cypress soap dispenser, tray, brush holder, and canister.",
+    "fullDescription": "Aromatic natural cypress wood resistant to moisture.",
+    "specifications": {
+      "Material": "100% Japanese Hinoki Cypress Wood"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [9, 34]
+  },
+  {
+    "id": 46,
+    "name": "Nero Marquina Round Dining Table",
+    "category": "Dining Tables",
+    "price": 5200,
+    "originalPrice": 5800,
+    "discount": 10,
+    "rating": 4.9,
+    "reviewCount": 21,
+    "image": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "60-inch round polished black Spanish marble table on brass conical base.",
+    "fullDescription": "Striking black marble with crisp white veining patterns.",
+    "specifications": {
+      "Diameter": "60 inches (Seats 6)",
+      "Material": "Natural Nero Marquina Marble, Brass Base"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [11, 3]
+  },
+  {
+    "id": 47,
+    "name": "Velvet Tufted Daybed Lounge Sofa",
+    "category": "Sofas",
+    "price": 2900,
+    "originalPrice": 3300,
+    "discount": 12,
+    "rating": 4.9,
+    "reviewCount": 27,
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Armless chaise lounge daybed in olive green plush velvet with cylindrical bolster cushion.",
+    "fullDescription": "Perfect for luxury reading rooms and sunrooms.",
+    "specifications": {
+      "Dimensions": "L: 76\" x W: 34\" x H: 18\"",
+      "Material": "Olive Velvet, Walnut Turned Legs"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [15, 23]
+  },
+  {
+    "id": 48,
+    "name": "Minimalist Floating Walnut Nightstand (Pair)",
+    "category": "Beds",
+    "price": 980,
+    "originalPrice": 1100,
+    "discount": 11,
+    "rating": 4.8,
+    "reviewCount": 30,
+    "image": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Wall-mounted solid walnut bedside drawer units with soft-close motion.",
+    "fullDescription": "Creates a clean floating aesthetic beside platform beds.",
+    "specifications": {
+      "Dimensions": "W: 20\" x D: 16\" x H: 8\"",
+      "Material": "American Black Walnut"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [4, 44]
+  },
+  {
+    "id": 49,
+    "name": "Artisan Hand-Carved Oak Console Table",
+    "category": "Furniture",
+    "price": 2400,
+    "originalPrice": 2700,
+    "discount": 11,
+    "rating": 4.9,
+    "reviewCount": 19,
+    "image": "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Slim entry console in cerused black oak with gold accent brass stretcher bar.",
+    "fullDescription": "Distinguished entryway centerpiece featuring hand-sculpted relief legs.",
+    "specifications": {
+      "Dimensions": "W: 60\" x D: 14\" x H: 32\"",
+      "Material": "Solid Cerused Oak, Satin Brass"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [8, 43]
+  },
+  {
+    "id": 50,
+    "name": "Luxury Brass & Glass Executive Desk Lamp",
+    "category": "Office Furniture",
+    "price": 540,
+    "originalPrice": 600,
+    "discount": 10,
+    "rating": 4.8,
+    "reviewCount": 36,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": false,
+    "isPopular": true,
+    "isFeatured": false,
+    "shortDescription": "Banker-style task lamp reinterpretated in heavy brass and smoked green crystal glass shade.",
+    "fullDescription": "Includes rotary brass dimmer switch and USB-C fast charging port at base.",
+    "specifications": {
+      "Height": "16 inches",
+      "Finish": "Solid Unlacquered Brass, Smoked Glass"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [10, 28]
+  },
+  {
+    "id": 51,
+    "name": "Botanical Silk Screened Curtains (Pair)",
+    "category": "Curtains",
+    "price": 720,
+    "originalPrice": 820,
+    "discount": 12,
+    "rating": 4.7,
+    "reviewCount": 18,
+    "image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1507652313519-d4e9174996dd?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": false,
+    "isFeatured": false,
+    "shortDescription": "Ivory silk mix drapes hand-printed with delicate golden fern fronds.",
+    "fullDescription": "Brings subtle nature-inspired artistry to window treatments.",
+    "specifications": {
+      "Dimensions": "Single Panel: 52\" W x 108\" L",
+      "Material": "50% Silk, 50% Linen"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [6, 7]
+  },
+  {
+    "id": 52,
+    "name": "Fluted Calacatta Marble Side Table",
+    "category": "Furniture",
+    "price": 1450,
+    "originalPrice": 1600,
+    "discount": 10,
+    "rating": 4.9,
+    "reviewCount": 26,
+    "image": "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1000&q=80",
+    "hoverImage": "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1000&q=80",
+    "gallery": [
+      "https://images.unsplash.com/photo-1533090161767-e6ffed986c88?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "inStock": true,
+    "isNew": true,
+    "isPopular": true,
+    "isFeatured": true,
+    "shortDescription": "Cylindrical drinks table crafted with carved vertical fluting in white Calacatta marble.",
+    "fullDescription": "Sculptural accent next to sofas or armchairs.",
+    "specifications": {
+      "Dimensions": "Diameter: 16\" x Height: 20\"",
+      "Weight": "42 lbs"
+    },
+    "reviews": [],
+    "frequentlyBoughtTogether": [1, 14]
+  }
+]

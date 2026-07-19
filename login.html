@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Client Portal | AURA Atelier</title>
+  <meta name="description" content="Sign in or register for an account at AURA Atelier luxury interior portal.">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/glassmorphism.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Shared Header -->
+  <header id="site-header"></header>
+
+  <!-- Login Workspace -->
+  <section style="min-height: 85vh; display: flex; align-items: center; justify-content: center; background: url('https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat; padding: 4rem 1.5rem; position: relative;">
+    <div style="position: absolute; inset: 0; background: rgba(11, 12, 16, 0.85); backdrop-filter: blur(10px);"></div>
+    
+    <div class="glass-modal-content" style="max-width: 480px; width: 100%; position: relative; z-index: 2; border: 1px solid var(--gold-primary); transform: none; box-shadow: var(--shadow-lg);">
+      <div style="text-align: center; margin-bottom: 2rem;">
+        <span class="logo-main" style="font-size: 1.8rem; display: block;">AURA</span>
+        <span class="logo-sub">PRIVATE CLIENT PORTAL</span>
+      </div>
+
+      <!-- Tab Switcher -->
+      <div style="display: flex; gap: 0.5rem; margin-bottom: 2rem; background: rgba(255,255,255,0.05); padding: 0.25rem; border-radius: 6px; border: 1px solid var(--border-gold);">
+        <button id="tab-signin-btn" class="btn btn-gold" style="flex: 1; padding: 0.6rem; font-size: 0.8rem;">Sign In</button>
+        <button id="tab-register-btn" class="btn btn-glass" style="flex: 1; padding: 0.6rem; font-size: 0.8rem;">Create Account</button>
+      </div>
+
+      <!-- Sign In Form -->
+      <form id="signin-form">
+        <div style="margin-bottom: 1.25rem;">
+          <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Email Address</label>
+          <input type="email" required class="glass-input" placeholder="client@residence.com">
+        </div>
+
+        <div style="margin-bottom: 1.25rem;">
+          <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Password</label>
+          <input type="password" required class="glass-input" placeholder="••••••••••••">
+        </div>
+
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; font-size: 0.8rem;">
+          <label style="display: flex; align-items: center; gap: 0.5rem; color: var(--text-light-secondary); cursor: pointer;">
+            <input type="checkbox" style="accent-color: var(--gold-primary);"> Remember me
+          </label>
+          <a href="#" id="forgot-password-link" style="color: var(--gold-primary); text-decoration: underline;">Forgot Password?</a>
+        </div>
+
+        <button type="submit" class="btn btn-gold" style="width: 100%; padding: 0.9rem;">Sign In To Atelier &rarr;</button>
+      </form>
+
+      <!-- Register Form -->
+      <form id="register-form" style="display: none;">
+        <div style="margin-bottom: 1.25rem;">
+          <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Full Name</label>
+          <input type="text" required class="glass-input" placeholder="Victoria Sterling">
+        </div>
+
+        <div style="margin-bottom: 1.25rem;">
+          <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Email Address</label>
+          <input type="email" required class="glass-input" placeholder="client@residence.com">
+        </div>
+
+        <div style="margin-bottom: 1.25rem;">
+          <label style="display: block; font-size: 0.75rem; color: var(--gold-primary); text-transform: uppercase; margin-bottom: 0.35rem;">Password</label>
+          <input type="password" required class="glass-input" placeholder="••••••••••••">
+        </div>
+
+        <button type="submit" class="btn btn-gold" style="width: 100%; padding: 0.9rem; margin-top: 1rem;">Register Client Account &rarr;</button>
+      </form>
+
+      <!-- Social Logins -->
+      <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1); text-align: center;">
+        <span style="font-size: 0.75rem; color: var(--text-light-muted); display: block; margin-bottom: 1rem;">OR CONTINUE WITH</span>
+        <div style="display: flex; gap: 1rem; justify-content: center;">
+          <button type="button" class="btn btn-glass" onclick="showToast('Google Sign-In Connected')" style="flex: 1; padding: 0.6rem; font-size: 0.8rem;"><i class="fab fa-google"></i> Google</button>
+          <button type="button" class="btn btn-glass" onclick="showToast('Apple ID Connected')" style="flex: 1; padding: 0.6rem; font-size: 0.8rem;"><i class="fab fa-apple"></i> Apple</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Shared Footer -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script type="module" src="js/store.js"></script>
+  <script type="module" src="js/products-data.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module">
+    import { showToast } from './js/main.js';
+
+    const btnSignin = document.getElementById('tab-signin-btn');
+    const btnRegister = document.getElementById('tab-register-btn');
+    const formSignin = document.getElementById('signin-form');
+    const formRegister = document.getElementById('register-form');
+
+    btnSignin.onclick = () => {
+      btnSignin.className = 'btn btn-gold';
+      btnRegister.className = 'btn btn-glass';
+      formSignin.style.display = 'block';
+      formRegister.style.display = 'none';
+    };
+
+    btnRegister.onclick = () => {
+      btnRegister.className = 'btn btn-gold';
+      btnSignin.className = 'btn btn-glass';
+      formRegister.style.display = 'block';
+      formSignin.style.display = 'none';
+    };
+
+    formSignin.onsubmit = (e) => {
+      e.preventDefault();
+      showToast('Welcome back to AURA Atelier Client Portal!');
+      setTimeout(() => window.location.href = 'index.html', 1500);
+    };
+
+    formRegister.onsubmit = (e) => {
+      e.preventDefault();
+      showToast('Your VIP client account has been created!');
+      setTimeout(() => window.location.href = 'index.html', 1500);
+    };
+
+    document.getElementById('forgot-password-link').onclick = (e) => {
+      e.preventDefault();
+      showToast('Password reset link has been dispatched to your email.');
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Wishlist | AURA Atelier</title>
+  <meta name="description" content="View and manage your saved luxury interior design items at AURA Atelier.">
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/glassmorphism.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Shared Header -->
+  <header id="site-header"></header>
+
+  <!-- Page Banner -->
+  <section style="background: #0E1017; padding: 4rem 0; text-align: center; border-bottom: 1px solid var(--border-dark);">
+    <div class="container">
+      <span class="section-subtitle">PRIVATE CURATION</span>
+      <h1 style="font-size: 2.2rem; color: #FFF; letter-spacing: 0.1em; margin-top: 0.5rem;">SAVED ATELIER FAVORITES</h1>
+    </div>
+  </section>
+
+  <!-- Wishlist Workspace -->
+  <section style="padding: 4rem 0 7rem 0;">
+    <div class="container">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2.5rem;">
+        <h3 id="wishlist-count-heading" style="font-family: var(--font-heading); color: #FFF; font-size: 1.25rem;"><i class="fas fa-heart text-gold"></i> SAVED ITEMS</h3>
+        <button id="clear-all-wishlist-btn" class="btn btn-outline-gold" style="padding: 0.5rem 1.25rem; font-size: 0.75rem;">Clear Entire Wishlist</button>
+      </div>
+
+      <div id="wishlist-grid" class="grid grid-cols-4" style="gap: 2rem;">
+        <!-- Dynamic Wishlist Cards -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Shared Footer -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script type="module" src="js/store.js"></script>
+  <script type="module" src="js/products-data.js"></script>
+  <script type="module" src="js/main.js"></script>
+  <script type="module">
+    import { fetchProducts } from './js/products-data.js';
+    import { Store } from './js/store.js';
+    import { showToast, openQuickView } from './js/main.js';
+
+    async function initWishlistPage() {
+      const container = document.getElementById('wishlist-grid');
+      const heading = document.getElementById('wishlist-count-heading');
+      if (!container) return;
+
+      const wishlistIds = Store.getWishlist();
+      const allProducts = await fetchProducts();
+      const savedProducts = allProducts.filter(p => wishlistIds.includes(p.id));
+
+      if (heading) heading.innerHTML = `<i class="fas fa-heart text-gold"></i> SAVED ITEMS (${savedProducts.length})`;
+
+      if (savedProducts.length === 0) {
+        container.className = '';
+        container.innerHTML = `
+          <div class="glass-panel-dark" style="text-align: center; padding: 5rem 2rem; width: 100%;">
+            <i class="far fa-heart text-gold" style="font-size: 3.5rem; margin-bottom: 1.5rem;"></i>
+            <h2 style="color: #FFF; font-family: var(--font-heading); margin-bottom: 0.75rem;">Your Wishlist is Currently Empty</h2>
+            <p style="color: var(--text-light-muted); margin-bottom: 2rem;">Save your favorite furniture, chandeliers, and marble dining pieces for future interior projects.</p>
+            <a href="shop.html" class="btn btn-gold">Explore Atelier Catalog &rarr;</a>
+          </div>
+        `;
+        return;
+      }
+
+      container.className = 'grid grid-cols-4';
+      container.innerHTML = savedProducts.map(p => `
+        <div class="product-card">
+          <div class="product-image-wrap">
+            <img src="${p.image}" alt="${p.name}" class="product-img product-img-main">
+            <div class="card-floating-actions">
+              <button class="floating-btn active" onclick="removeFromWishlist(event, ${p.id})" title="Remove from Wishlist">
+                <i class="fas fa-trash-can"></i>
+              </button>
+              <button class="floating-btn" onclick="openQuickView(${p.id})" title="Quick View">
+                <i class="fas fa-eye"></i>
+              </button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-category">${p.category}</span>
+            <h3 class="product-title"><a href="product.html?id=${p.id}">${p.name}</a></h3>
+            <div class="price-row">
+              <span class="current-price">$${p.price.toLocaleString()}</span>
+            </div>
+            <button class="btn btn-gold add-cart-btn-card" onclick="moveToCart(event, ${p.id})">Move To Cart</button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    window.removeFromWishlist = (e, id) => {
+      e.preventDefault();
+      Store.toggleWishlist(id);
+      showToast('Removed from Wishlist');
+      initWishlistPage();
+    };
+
+    window.moveToCart = (e, id) => {
+      e.preventDefault();
+      Store.addToCart(id, 1);
+      Store.toggleWishlist(id);
+      showToast('Item moved to your shopping bag!');
+      initWishlistPage();
+    };
+
+    document.getElementById('clear-all-wishlist-btn').onclick = () => {
+      Store.clearWishlist();
+      showToast('Wishlist cleared');
+      initWishlistPage();
+    };
+
+    document.addEventListener('DOMContentLoaded', initWishlistPage);
+  </script>
+</body>
+</html>
